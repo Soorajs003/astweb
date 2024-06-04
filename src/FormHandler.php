@@ -48,7 +48,7 @@ class FormHandler
         $from_email ='forms@'.$host;
    		$this->mailer->setFrom($from_email,'Contact Form',false);  
 
-   		$this->captcha = false;   
+   		$this->captcha = true;   
 
    		$this->attachments = [];
 
